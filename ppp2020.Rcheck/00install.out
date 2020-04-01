@@ -1,0 +1,30 @@
+* installing *source* package 'ppp2020' ...
+** using staged installation
+** libs
+
+*** arch - i386
+C:/Rtools/mingw_32/bin/g++  -std=gnu++11 -I"C:/PROGRA~1/R/R-36~1.3/include" -DNDEBUG  -I"C:/Users/mintb/Documents/R/win-library/3.6/Rcpp/include" -I"C:/Users/mintb/Documents/R/win-library/3.6/RcppArmadillo/include"     -fopenmp    -O2 -Wall  -mtune=core2 -c RcppExports.cpp -o RcppExports.o
+C:/Rtools/mingw_32/bin/g++  -std=gnu++11 -I"C:/PROGRA~1/R/R-36~1.3/include" -DNDEBUG  -I"C:/Users/mintb/Documents/R/win-library/3.6/Rcpp/include" -I"C:/Users/mintb/Documents/R/win-library/3.6/RcppArmadillo/include"     -fopenmp    -O2 -Wall  -mtune=core2 -c rcpparma_hello_world.cpp -o rcpparma_hello_world.o
+C:/Rtools/mingw_32/bin/g++ -shared -s -static-libgcc -o ppp2020.dll tmp.def RcppExports.o rcpparma_hello_world.o -fopenmp -LC:/PROGRA~1/R/R-36~1.3/bin/i386 -lRlapack -LC:/PROGRA~1/R/R-36~1.3/bin/i386 -lRblas -lgfortran -lm -lquadmath -LC:/PROGRA~1/R/R-36~1.3/bin/i386 -lR
+installing to D:/Dropbox/_study/_BR (mine)/Project1_ZIPHMM/Study/09 Rcpp/21 test/test2/ppp2020.Rcheck/00LOCK-ppp2020/00new/ppp2020/libs/i386
+
+*** arch - x64
+C:/Rtools/mingw_64/bin/g++  -std=gnu++11 -I"C:/PROGRA~1/R/R-36~1.3/include" -DNDEBUG  -I"C:/Users/mintb/Documents/R/win-library/3.6/Rcpp/include" -I"C:/Users/mintb/Documents/R/win-library/3.6/RcppArmadillo/include"     -fopenmp    -O2 -Wall  -mtune=core2 -c RcppExports.cpp -o RcppExports.o
+C:/Rtools/mingw_64/bin/g++  -std=gnu++11 -I"C:/PROGRA~1/R/R-36~1.3/include" -DNDEBUG  -I"C:/Users/mintb/Documents/R/win-library/3.6/Rcpp/include" -I"C:/Users/mintb/Documents/R/win-library/3.6/RcppArmadillo/include"     -fopenmp    -O2 -Wall  -mtune=core2 -c rcpparma_hello_world.cpp -o rcpparma_hello_world.o
+C:/Rtools/mingw_64/bin/g++ -shared -s -static-libgcc -o ppp2020.dll tmp.def RcppExports.o rcpparma_hello_world.o -fopenmp -LC:/PROGRA~1/R/R-36~1.3/bin/x64 -lRlapack -LC:/PROGRA~1/R/R-36~1.3/bin/x64 -lRblas -lgfortran -lm -lquadmath -LC:/PROGRA~1/R/R-36~1.3/bin/x64 -lR
+installing to D:/Dropbox/_study/_BR (mine)/Project1_ZIPHMM/Study/09 Rcpp/21 test/test2/ppp2020.Rcheck/00LOCK-ppp2020/00new/ppp2020/libs/x64
+** R
+** byte-compile and prepare package for lazy loading
+** help
+경고: C:/Users/mintb/AppData/Local/Temp/RtmpUPhOp6/Rbuild6668565f5dee/ppp2020/man/ppp2020-package.Rd:26: All text must be in a section
+경고: C:/Users/mintb/AppData/Local/Temp/RtmpUPhOp6/Rbuild6668565f5dee/ppp2020/man/ppp2020-package.Rd:27: All text must be in a section
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+*** arch - i386
+*** arch - x64
+** testing if installed package can be loaded from final location
+*** arch - i386
+*** arch - x64
+** testing if installed package keeps a record of temporary installation path
+* DONE (ppp2020)
