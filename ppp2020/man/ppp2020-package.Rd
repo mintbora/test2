@@ -13,7 +13,7 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{ppp2020}
 \packageIndices{ppp2020}
-~~ An overview of how to use the package, including the most important functions ~~
+aa
 }
 \author{
 \packageAuthor{ppp2020}
@@ -21,14 +21,10 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{ppp2020}
 }
 \references{
-~~ Literature or other references for background information ~~
+yes
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
-~~ directory ~~
+ok
 \keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
+
 \examples{
 }
