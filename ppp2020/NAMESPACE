@@ -1,0 +1,3 @@
+useDynLib(ppp2020, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
